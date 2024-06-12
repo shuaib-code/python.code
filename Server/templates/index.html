@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Files</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold mb-4">Download Files</h1>
+        <p class="text-lg mb-4">Click on a file to download:</p>
+        <ul class="list-disc pl-4">
+            {% for file in files %}
+            <li class="text-blue-500 hover:text-blue-700"><a href="{{ url_for('download_file', filename=file) }}">{{
+                    file }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+
+</html>
