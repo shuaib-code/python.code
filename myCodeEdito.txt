@@ -1,0 +1,50 @@
+{
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.minimap.size": "fill",
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.defaultLocation": "editor",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "workbench.activityBar.iconClickBehavior": "focus",
+  "workbench.colorTheme": "One Monokai",
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "terminal.integrated.fontFamily": "monospace",
+  "workbench.settings.applyToAllProfiles": [
+    "editor.tabSize",
+    "editor.fontSize"
+  ],
+  "launch": {
+
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.sideBar.location": "right",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontWeight": "445",
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "diffEditor.codeLens": true,
+  "editor.fontSize": 18,
+  "editor.scrollbar.horizontalScrollbarSize": 15,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
+  "workbench.colorCustomizations": {
+    "sideBar.background": "#282c34d9",
+    "statusBar.background": "#282c34f9"
+  },
+  "python.createEnvironment.trigger": "off"
+}
