@@ -2,7 +2,7 @@ import psutil
 import time
 import os
 
-ups_time = 4  # in minutes
+ups_time = 2  # in minutes
 
 def shutdown():
     os.system("shutdown /s /t 0")
